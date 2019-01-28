@@ -7,23 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		457C70F121FED8C300F6DB1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C70F021FED8C300F6DB1C /* AppDelegate.m */; };
-		457C70F421FED8C300F6DB1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C70F321FED8C300F6DB1C /* ViewController.m */; };
-		457C70FF21FED8C400F6DB1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C70FE21FED8C400F6DB1C /* main.m */; };
 		457C710621FEDF1600F6DB1C /* RUOKRed.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 457C710521FEDF1600F6DB1C /* RUOKRed.podspec */; };
 		457C710821FEE7C800F6DB1C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 457C710721FEE7C800F6DB1C /* LICENSE */; };
+		457C710B21FEF06E00F6DB1C /* RUOKRedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C710A21FEF06E00F6DB1C /* RUOKRedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		457C70EC21FED8C300F6DB1C /* RUOKRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUOKRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		457C70EF21FED8C300F6DB1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		457C70F021FED8C300F6DB1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		457C70F221FED8C300F6DB1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		457C70F321FED8C300F6DB1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		457C70FD21FED8C400F6DB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		457C70FE21FED8C400F6DB1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		457C710521FEDF1600F6DB1C /* RUOKRed.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RUOKRed.podspec; sourceTree = SOURCE_ROOT; };
 		457C710721FEE7C800F6DB1C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		457C710921FEF06E00F6DB1C /* RUOKRedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUOKRedObject.h; sourceTree = "<group>"; };
+		457C710A21FEF06E00F6DB1C /* RUOKRedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUOKRedObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +52,8 @@
 			children = (
 				457C710721FEE7C800F6DB1C /* LICENSE */,
 				457C710521FEDF1600F6DB1C /* RUOKRed.podspec */,
-				457C70EF21FED8C300F6DB1C /* AppDelegate.h */,
-				457C70F021FED8C300F6DB1C /* AppDelegate.m */,
-				457C70F221FED8C300F6DB1C /* ViewController.h */,
-				457C70F321FED8C300F6DB1C /* ViewController.m */,
-				457C70FD21FED8C400F6DB1C /* Info.plist */,
-				457C70FE21FED8C400F6DB1C /* main.m */,
+				457C710921FEF06E00F6DB1C /* RUOKRedObject.h */,
+				457C710A21FEF06E00F6DB1C /* RUOKRedObject.m */,
 			);
 			path = RUOKRed;
 			sourceTree = "<group>";
@@ -137,9 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				457C70F421FED8C300F6DB1C /* ViewController.m in Sources */,
-				457C70FF21FED8C400F6DB1C /* main.m in Sources */,
-				457C70F121FED8C300F6DB1C /* AppDelegate.m in Sources */,
+				457C710B21FEF06E00F6DB1C /* RUOKRedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
