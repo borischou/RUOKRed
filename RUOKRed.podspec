@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RUOKRed"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "Raymond Reddington"
   s.description  = <<-DESC
 Lothar is creating a practicing project.
