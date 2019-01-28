@@ -13,6 +13,7 @@
 		457C70F921FED8C400F6DB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457C70F821FED8C400F6DB1C /* Assets.xcassets */; };
 		457C70FC21FED8C400F6DB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457C70FA21FED8C400F6DB1C /* LaunchScreen.storyboard */; };
 		457C70FF21FED8C400F6DB1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C70FE21FED8C400F6DB1C /* main.m */; };
+		457C710621FEDF1600F6DB1C /* RUOKRed.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 457C710521FEDF1600F6DB1C /* RUOKRed.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		457C70FB21FED8C400F6DB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		457C70FD21FED8C400F6DB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		457C70FE21FED8C400F6DB1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		457C710521FEDF1600F6DB1C /* RUOKRed.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RUOKRed.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		457C70EE21FED8C300F6DB1C /* RUOKRed */ = {
 			isa = PBXGroup;
 			children = (
+				457C710521FEDF1600F6DB1C /* RUOKRed.podspec */,
 				457C70EF21FED8C300F6DB1C /* AppDelegate.h */,
 				457C70F021FED8C300F6DB1C /* AppDelegate.m */,
 				457C70F221FED8C300F6DB1C /* ViewController.h */,
@@ -131,6 +134,7 @@
 				457C70FC21FED8C400F6DB1C /* LaunchScreen.storyboard in Resources */,
 				457C70F921FED8C400F6DB1C /* Assets.xcassets in Resources */,
 				457C70F721FED8C300F6DB1C /* Main.storyboard in Resources */,
+				457C710621FEDF1600F6DB1C /* RUOKRed.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8SXHLJ4HE;
 				INFOPLIST_FILE = RUOKRed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8SXHLJ4HE;
 				INFOPLIST_FILE = RUOKRed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
