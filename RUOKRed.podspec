@@ -28,7 +28,7 @@ s.description  = <<-DESC
 Lothar
 DESC
 
-  s.homepage     = "http://EXAMPLE/RUOKRed"
+  s.homepage     = "https://github.com/borischou/RUOKRed"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:borischou/RUOKRed.git", :tag => "{s.version}" }
+  s.source       = { :git => "git@github.com:borischou/RUOKRed.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
