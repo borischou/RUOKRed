@@ -80,7 +80,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:borischou/RUOKRed.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/borischou/RUOKRed.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
